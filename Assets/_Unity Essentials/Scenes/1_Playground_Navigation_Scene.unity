@@ -38,12 +38,12 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.31281272, g: 0.5501513, b: 0.8217935, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 12
+  serializedVersion: 13
+  m_BakeOnSceneLoad: 0
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -1432,6 +1432,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ring_3
       objectReference: {fileID: 0}
+    - target: {fileID: 4001717987881351479, guid: 14c61db565b4f4afb9a5c5113037f758,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.544
+      objectReference: {fileID: 0}
+    - target: {fileID: 4001717987881351479, guid: 14c61db565b4f4afb9a5c5113037f758,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.982
+      objectReference: {fileID: 0}
+    - target: {fileID: 4001717987881351479, guid: 14c61db565b4f4afb9a5c5113037f758,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0
+      objectReference: {fileID: 0}
     - target: {fileID: 4444949082942640556, guid: 14c61db565b4f4afb9a5c5113037f758,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1490,17 +1505,17 @@ PrefabInstance:
     - target: {fileID: 7467947963672208420, guid: 14c61db565b4f4afb9a5c5113037f758,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -21.31
+      value: -21.29
       objectReference: {fileID: 0}
     - target: {fileID: 7467947963672208420, guid: 14c61db565b4f4afb9a5c5113037f758,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 7.45
+      value: 7.46
       objectReference: {fileID: 0}
     - target: {fileID: 7467947963672208420, guid: 14c61db565b4f4afb9a5c5113037f758,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0
+      value: 0.04
       objectReference: {fileID: 0}
     - target: {fileID: 7467947963672208420, guid: 14c61db565b4f4afb9a5c5113037f758,
         type: 3}
